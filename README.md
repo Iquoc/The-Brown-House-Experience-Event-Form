@@ -8,14 +8,19 @@
 
 <img src="/main/main_database_connect.jpg" alt="db_connect" style="margin-top: 50px;" />
 <b>The above code is one of the initial calls in the Main File and is responsible for initializing and establishing the database connection.  The singleton/instance of the database connection allows for one connection call and reuse without having to waste resources on establishing the same connection each time the web application needs to read/write to database.</b>
+
 <img src="/main/create_form.jpg" alt="create_form" style="margin-top: 50px;" />
 <b>The above code uses routing in React.js, comments to organize the method calls and its purpose, appropriate variable naming conventions, and handling of commands between separate Python files.</b>
+
 <img src="/main/delete_form.jpg" alt="delete_form" style="margin-top: 50px;" />
 <b>The above code uses routing in React.js, appropriate variable naming conventions, and handling of commands between separate Python files.</b>
+
 <img src="/main/delete_participant.jpg" alt="delete_participant" style="margin-top: 50px;" />
 <b>The above code uses routing in React.js, appropriate variable naming conventions, and handling of commands between separate Python files.</b>
+
 <img src="/main/extrapolate_year.jpg" alt="ext_year" style="margin-top: 50px;" />
 <b>The above code uses appropriate variable naming conventions, and efficient method organization.</b>
+
 <img src="/main/waitlist.jpg" alt="waitlist" style="margin-top: 50px;" />
 <b>The above code uses comments to organize the method calls and its purpose, appropriate variable naming conventions, and handling of commands between separate Python files.<br></b>
 
