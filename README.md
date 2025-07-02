@@ -6,7 +6,7 @@
 
 <b>Here are examples of using routing in React.js, efficient method calling, code commenting, initializing database connection, and appropriate handling of commands between separate Python files.</b>
 
-<img src="/main/main_database_connect.jpg" alt="db_connect" style="margin-top: 10px;" />
+<img src="/main/main_database_connect.jpg" alt="db_connect" style="margin-top: 50px;" />
 <b>The above code is one of the initial calls in the Main File and is responsible for initializing and establishing the database connection.  The singleton/instance of the database connection allows for one connection call and reuse without having to waste resources on establishing the same connection each time the web application needs to read/write to database.</b>
 <img src="/main/create_form.jpg" alt="create_form" style="margin-top: 10px;" />
 <b>The above code uses routing in React.js, comments to organize the method calls and its purpose, appropriate variable naming conventions, and handling of commands between separate Python files.</b>
@@ -31,9 +31,8 @@
 <b> Above is the waitlist flowchart to communicate the functionality of waitlisting participants in regards to payment and registration.</b>
 
 <img src="/conceptual-diagrams/tbhe-events-architecture.jpg" alt="architecture" style="margin-top: 10px;" />
-<br><br>
 <b> Above is the architecture diagram used in the early stages of the web development.  I worked closely with the Software Architecture, Serhat Cingilli, to research and assess the appropriate tools and frameworks for our clients needs.  For example, our client asked for a way to integrate secure online payments in the web application.  Prior to our group, the professor had cautioned the class against using payment in our softwares because it had not been previously done and could lead to scope creep, vulnerable software, and other difficulties that the professor could not help with if they arrise.  In my research, I came across the Stripe API.  I had previous experiences using web requests and made the decision to investigate the implementation with Max Kenner, ultimately allowing us to integrate a payment system securely.  This is significant in proving payment functionality in the DePaul University Computer Science Senior Capstone course.</b>
-<br><br>
+<br>
 
 <b>One of my responsibilities as part of the backend team is to connect the database to the backend.  Here is a draft of the schema I designed and presented to the team.  This helped conceptualize and communicate the structure of the database so that we can work coherently on the same project.</b>
 - [Database Schema Draft](https://github.com/Iquoc/The-Brown-House-Experience-Event-Form/blob/main/conceptual-diagrams/schema-drafts.txt)
