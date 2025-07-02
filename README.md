@@ -6,21 +6,17 @@
 
 <b>Here are examples of using routing in React.js, efficient method calling, code commenting, initializing database connection, and appropriate handling of commands between separate Python files.</b>
 
-<img src="/main/main_database_connect.jpg" alt="db_connect" style="float: left; margin-right: 15px; margin-top: 10px;" />
+<img src="/main/main_database_connect.jpg" alt="db_connect" style="margin-top: 10px;" />
 <b>The above code is one of the initial calls in the Main File and is responsible for initializing and establishing the database connection.  The singleton/instance of the database connection allows for one connection call and reuse without having to waste resources on establishing the same connection each time the web application needs to read/write to database.</b>
-<img src="/main/create_form.jpg" alt="create_form" style="float: left; margin-right: 15px; margin-top: 10px;" />
+<img src="/main/create_form.jpg" alt="create_form" style="margin-top: 10px;" />
 <b>The above code uses routing in React.js, comments to organize the method calls and its purpose, appropriate variable naming conventions, and handling of commands between separate Python files.</b>
-<br>
-![delete_form!](/main/delete_form.jpg)
+<img src="/main/delete_form.jpg" alt="delete_form" style="margin-top: 10px;" />
 <b>The above code uses routing in React.js, appropriate variable naming conventions, and handling of commands between separate Python files.</b>
-<br>
-![delete_participant!](/main/delete_participant.jpg)
+<img src="/main/delete_participant.jpg" alt="delete_participant" style="margin-top: 10px;" />
 <b>The above code uses routing in React.js, appropriate variable naming conventions, and handling of commands between separate Python files.</b>
-<br>
-![ext_year!](/main/extrapolate_year.jpg)
+<img src="/main/extrapolate_year.jpg" alt="ext_year" style="margin-top: 10px;" />
 <b>The above code uses appropriate variable naming conventions, and efficient method organization.</b>
-<br>
-![wl!](/main/waitlist.jpg)
+<img src="/main/waitlist.jpg" alt="waitlist" style="margin-top: 10px;" />
 <b>The above code uses comments to organize the method calls and its purpose, appropriate variable naming conventions, and handling of commands between separate Python files.<br></b>
 
 <h2> Database File:</h2>
@@ -31,10 +27,10 @@
 
 <h2> Conceptual Diagrams:</h2>
 
-<img src="/conceptual-diagrams/TBHE-waitlist-final.drawio.png" alt="waitlist_flow" style="float: left; margin-right: 15px; margin-top: 10px;" />
+<img src="/conceptual-diagrams/TBHE-waitlist-final.drawio.png" alt="waitlist_flow" style="margin-top: 10px;" />
 <b> Above is the waitlist flowchart to communicate the functionality of waitlisting participants in regards to payment and registration.</b>
 
-<img src="/conceptual-diagrams/tbhe-events-architecture.jpg" alt="architecture" style="float: left; margin-right: 15px; margin-top: 10px;" />
+<img src="/conceptual-diagrams/tbhe-events-architecture.jpg" alt="architecture" style="margin-top: 10px;" />
 <b> Above is the architecture diagram used in the early stages of the web development.  I worked closely with the Software Architecture, Serhat Cingilli, to research and assess the appropriate tools and frameworks for our clients needs.  For example, our client asked for a way to integrate secure online payments in the web application.  Prior to our group, the professor had cautioned the class against using payment in our softwares because it had not been previously done and could lead to scope creep, vulnerable software, and other difficulties that the professor could not help with if they arrise.  In my research, I came across the Stripe API.  I had previous experiences using web requests and made the decision to investigate the implementation with Max Kenner, ultimately allowing us to integrate a payment system securely.  This is significant in proving payment functionality in the DePaul University Computer Science Senior Capstone course.</b>
 <br>
 
