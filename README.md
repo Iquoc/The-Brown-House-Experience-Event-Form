@@ -7,15 +7,20 @@
 <b>Here are examples of using routing in React.js, efficient method calling, code commenting, initializing database connection, and appropriate handling of commands between separate Python files.</b>
 
 ![db_connect!](/main/main_database_connect.jpg)
-<b>The above code is one of the initial calls in the Main File and is responsible for initializing and establishing the database connection.  The singleton/instance of the database connection allows for one connection call and reuse without having to waste resources on establishing the same connection each time the web application needs to read/write to database.<br></b>
+<b>The above code is one of the initial calls in the Main File and is responsible for initializing and establishing the database connection.  The singleton/instance of the database connection allows for one connection call and reuse without having to waste resources on establishing the same connection each time the web application needs to read/write to database.</b>
+<br>
 ![create_form!](/main/create_form.jpg)
-<b>The above code uses routing in React.js, comments to organize the method calls and its purpose, appropriate variable naming conventions, and handling of commands between separate Python files.<br></b>
+<b>The above code uses routing in React.js, comments to organize the method calls and its purpose, appropriate variable naming conventions, and handling of commands between separate Python files.</b>
+<br>
 ![delete_form!](/main/delete_form.jpg)
-<b>The above code uses routing in React.js, appropriate variable naming conventions, and handling of commands between separate Python files.<br></b>
+<b>The above code uses routing in React.js, appropriate variable naming conventions, and handling of commands between separate Python files.</b>
+<br>
 ![delete_participant!](/main/delete_participant.jpg)
-<b>The above code uses routing in React.js, appropriate variable naming conventions, and handling of commands between separate Python files.<br></b>
+<b>The above code uses routing in React.js, appropriate variable naming conventions, and handling of commands between separate Python files.</b>
+<br>
 ![ext_year!](/main/extrapolate_year.jpg)
-<b>The above code uses appropriate variable naming conventions, and efficient method organization.<br></b>
+<b>The above code uses appropriate variable naming conventions, and efficient method organization.</b>
+<br>
 ![wl!](/main/waitlist.jpg)
 <b>The above code uses comments to organize the method calls and its purpose, appropriate variable naming conventions, and handling of commands between separate Python files.<br></b>
 
@@ -29,11 +34,11 @@
 
 <b>Of course, this project would not have been possible without my hardworking and talented team members.  Below, I have credited them with their respective roles.<br></b>
 
--Aimun Anwer: Product Owner, Frontend
--Anh Luong: Scrum Master, Frontend
--Ayesha Khan: Frontend
--Hamza Mirza: Frontend
--Max Kenner: Backend
--Serhat Cingilli: Software Architect, Backend
--Sophie Kostovski: Webmaster, Backend
--Tatiana Goodman: Documentation Lead, Backend
+- Aimun Anwer: Product Owner, Frontend
+- Anh Luong: Scrum Master, Frontend
+- Ayesha Khan: Frontend
+- Hamza Mirza: Frontend
+- Max Kenner: Backend
+- Serhat Cingilli: Software Architect, Backend
+- Sophie Kostovski: Webmaster, Backend
+- Tatiana Goodman: Documentation Lead, Backend
