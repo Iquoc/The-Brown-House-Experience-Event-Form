@@ -1,0 +1,93 @@
+***NOTE: This is a draft of the database schema.  It does not represent the final production database schema, only the design process along the way!***
+
+In regards to possible search queries the client may have on the forms stored in the database:
+
+>>>
+GET Forms within DATE range
+GET Forms with TAG
+GET Forms with WAIVER
+GET Forms with PAYMENT
+<<<
+
+Database: points to forms created
+Collection: organizes the forms based on date created
+
+Forms Content:
+{
+    _id: uuid << Partition Key (( YEAR:gener-ated-uuid ))
+    tag: String (( Academy form or Trade Day ))
+    title: String
+    description: String
+    startDate: DATE Obj
+    endDate (optional): DATE Obj
+    location: String
+    capacity: Integer
+    waitlist: Integer
+    createdDate: DATE Obj
+    createdTime: DATE Obj
+    paid: null OR Stripe Obj
+        {
+            Param1: ,
+            Param2: ,
+            ...
+        }
+    question array -> 
+        {
+            question: String
+            type: String
+            options: array -> {}
+            required: Boolean
+        },
+        ...
+}
+
+Forms Tag:
+
+{
+    tag: String << Partition Key, logical partitioning
+    course_id: 
+        {
+            course1,
+            course2,
+            course3
+        }
+}
+
+In regards to possible search queries the client may have on the participant responses stored in the database:
+
+>>>
+GET Participants within DATE range
+GET Participants with TAG
+GET Participants with WAIVER NOT NULL
+GET Participants with PAYMENT_ID
+GET Participants within GRADE LEVEL
+GET Participants with PHONE NUMBER
+GET Participants with GENDER
+GET Participants with UNDER-21
+GET Participants with EMAIL
+GET Participants within AGE
+<<<
+
+Database: points to the participant responses created
+Collection: organizes the participant responses based on the forms it is connected to
+
+COURSE_ID (per course):
+{
+    _id: uuid << Partition Key (referring to submissionId)
+    form_id: uuid,
+    "timestamp": DATE Obj
+    waitlist: Boolean
+    paid: Boolean (( True if payment was successful, false if no payment made ))
+    answers:
+            {
+            name: 
+            email: 
+            age: 
+            under-21: Boolean
+            (require parents info):
+            phone number: String
+            waivers: Boolean
+            payments (if needed): Boolean and/or id for Stripe
+            date-submitted: DATE Obj
+        }
+}
