@@ -31,8 +31,9 @@
 <b> Above is the waitlist flowchart to communicate the functionality of waitlisting participants in regards to payment and registration.</b>
 
 <img src="/conceptual-diagrams/tbhe-events-architecture.jpg" alt="architecture" style="margin-top: 10px;" />
+<br><br>
 <b> Above is the architecture diagram used in the early stages of the web development.  I worked closely with the Software Architecture, Serhat Cingilli, to research and assess the appropriate tools and frameworks for our clients needs.  For example, our client asked for a way to integrate secure online payments in the web application.  Prior to our group, the professor had cautioned the class against using payment in our softwares because it had not been previously done and could lead to scope creep, vulnerable software, and other difficulties that the professor could not help with if they arrise.  In my research, I came across the Stripe API.  I had previous experiences using web requests and made the decision to investigate the implementation with Max Kenner, ultimately allowing us to integrate a payment system securely.  This is significant in proving payment functionality in the DePaul University Computer Science Senior Capstone course.</b>
-<br>
+<br><br>
 
 <b>One of my responsibilities as part of the backend team is to connect the database to the backend.  Here is a draft of the schema I designed and presented to the team.  This helped conceptualize and communicate the structure of the database so that we can work coherently on the same project.</b>
 - [Database Schema Draft](https://github.com/Iquoc/The-Brown-House-Experience-Event-Form/blob/main/conceptual-diagrams/schema-drafts.txt)
