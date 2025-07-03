@@ -1,4 +1,4 @@
-# The-Brown-House-Experience-Event-Form
+# The Brown House Experience Event Form
 
 <b>This is a full-stack website application developed by a team of Computer Science Undergraduates at DePaul University for a client in the Senior Capstone course.  Because the application was handed off to the client, complete files and structures have been omitted.  <br>  I worked on the backend team, mostly involved in: database connect/read/write; waitlist functionality; waitlist flow chart; and, architecture design.</b>
 
